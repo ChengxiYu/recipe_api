@@ -9,4 +9,4 @@ class MultiTests(SimpleTestCase):
     def test_multi_numbers(self):
         ans = multiplication.multi(10, 10)
 
-        self.assertEqual(ans, 100)
+        self.assertEqual(ans, 106)
